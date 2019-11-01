@@ -1,0 +1,33 @@
+<div class="login-bg">
+    <div id="login-page">
+        <div class="container">
+            <div class="login-box">
+                <form class="form-login" id="form-login">
+                    <h2 class="form-login-heading">登录</h2>
+                    <div class="login-wrap">
+                        <input type="text" class="form-control login-username" id="username" name="username"
+                            placeholder="请输入账号" autofocus>
+                        <br>
+                        <input type="password" class="form-control login-password" id="password" name="password"
+                            placeholder="请输入密码">
+                        <label class="checkbox">
+
+                        </label>
+
+                        <hr>
+                        <div class="registration">
+                            还没有账号？<br />
+                            <a class="jump-register">
+                                快去创建一个吧
+                            </a>
+                        </div>
+                    </div>
+
+                </form>
+                <button class="btn btn-theme btn-block" id="loginbtn" type="submit"><i
+                        class="fa fa-lock"></i>登录</button>
+            </div>
+        </div>
+    </div>
+
+</div>
